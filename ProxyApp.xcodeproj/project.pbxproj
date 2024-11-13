@@ -6,6 +6,11 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		58325C652CE385A500C4CBEE /* NetworkExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58325C642CE385A500C4CBEE /* NetworkExtension.framework */; };
+		58325C6D2CE385A500C4CBEE /* ProxyAppVPN.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 58325C622CE385A500C4CBEE /* ProxyAppVPN.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		58325C322CE3600C00C4CBEE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -21,17 +26,60 @@
 			remoteGlobalIDString = 58325C202CE3600B00C4CBEE;
 			remoteInfo = ProxyApp;
 		};
+		58325C6B2CE385A500C4CBEE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 58325C192CE3600B00C4CBEE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 58325C612CE385A500C4CBEE;
+			remoteInfo = ProxyAppVPN;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		58325C722CE385A500C4CBEE /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				58325C6D2CE385A500C4CBEE /* ProxyAppVPN.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		58325C212CE3600B00C4CBEE /* ProxyApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProxyApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		58325C312CE3600C00C4CBEE /* ProxyAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProxyAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		58325C3B2CE3600C00C4CBEE /* ProxyAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProxyAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		58325C622CE385A500C4CBEE /* ProxyAppVPN.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = ProxyAppVPN.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		58325C642CE385A500C4CBEE /* NetworkExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NetworkExtension.framework; path = System/Library/Frameworks/NetworkExtension.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		58325C592CE37FCC00C4CBEE /* Exceptions for "ProxyApp" folder in "ProxyApp" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 58325C202CE3600B00C4CBEE /* ProxyApp */;
+		};
+		58325C712CE385A500C4CBEE /* Exceptions for "ProxyAppVPN" folder in "ProxyAppVPN" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 58325C612CE385A500C4CBEE /* ProxyAppVPN */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		58325C232CE3600B00C4CBEE /* ProxyApp */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				58325C592CE37FCC00C4CBEE /* Exceptions for "ProxyApp" folder in "ProxyApp" target */,
+			);
 			path = ProxyApp;
 			sourceTree = "<group>";
 		};
@@ -43,6 +91,14 @@
 		58325C3E2CE3600C00C4CBEE /* ProxyAppUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = ProxyAppUITests;
+			sourceTree = "<group>";
+		};
+		58325C662CE385A500C4CBEE /* ProxyAppVPN */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				58325C712CE385A500C4CBEE /* Exceptions for "ProxyAppVPN" folder in "ProxyAppVPN" target */,
+			);
+			path = ProxyAppVPN;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -69,6 +125,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		58325C5F2CE385A500C4CBEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58325C652CE385A500C4CBEE /* NetworkExtension.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -78,6 +142,8 @@
 				58325C232CE3600B00C4CBEE /* ProxyApp */,
 				58325C342CE3600C00C4CBEE /* ProxyAppTests */,
 				58325C3E2CE3600C00C4CBEE /* ProxyAppUITests */,
+				58325C662CE385A500C4CBEE /* ProxyAppVPN */,
+				58325C632CE385A500C4CBEE /* Frameworks */,
 				58325C222CE3600B00C4CBEE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -88,8 +154,17 @@
 				58325C212CE3600B00C4CBEE /* ProxyApp.app */,
 				58325C312CE3600C00C4CBEE /* ProxyAppTests.xctest */,
 				58325C3B2CE3600C00C4CBEE /* ProxyAppUITests.xctest */,
+				58325C622CE385A500C4CBEE /* ProxyAppVPN.appex */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		58325C632CE385A500C4CBEE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				58325C642CE385A500C4CBEE /* NetworkExtension.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -102,10 +177,12 @@
 				58325C1D2CE3600B00C4CBEE /* Sources */,
 				58325C1E2CE3600B00C4CBEE /* Frameworks */,
 				58325C1F2CE3600B00C4CBEE /* Resources */,
+				58325C722CE385A500C4CBEE /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				58325C6C2CE385A500C4CBEE /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
 				58325C232CE3600B00C4CBEE /* ProxyApp */,
@@ -163,6 +240,28 @@
 			productReference = 58325C3B2CE3600C00C4CBEE /* ProxyAppUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		58325C612CE385A500C4CBEE /* ProxyAppVPN */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58325C6E2CE385A500C4CBEE /* Build configuration list for PBXNativeTarget "ProxyAppVPN" */;
+			buildPhases = (
+				58325C5E2CE385A500C4CBEE /* Sources */,
+				58325C5F2CE385A500C4CBEE /* Frameworks */,
+				58325C602CE385A500C4CBEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				58325C662CE385A500C4CBEE /* ProxyAppVPN */,
+			);
+			name = ProxyAppVPN;
+			packageProductDependencies = (
+			);
+			productName = ProxyAppVPN;
+			productReference = 58325C622CE385A500C4CBEE /* ProxyAppVPN.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -184,6 +283,9 @@
 						CreatedOnToolsVersion = 16.1;
 						TestTargetID = 58325C202CE3600B00C4CBEE;
 					};
+					58325C612CE385A500C4CBEE = {
+						CreatedOnToolsVersion = 16.1;
+					};
 				};
 			};
 			buildConfigurationList = 58325C1C2CE3600B00C4CBEE /* Build configuration list for PBXProject "ProxyApp" */;
@@ -203,6 +305,7 @@
 				58325C202CE3600B00C4CBEE /* ProxyApp */,
 				58325C302CE3600C00C4CBEE /* ProxyAppTests */,
 				58325C3A2CE3600C00C4CBEE /* ProxyAppUITests */,
+				58325C612CE385A500C4CBEE /* ProxyAppVPN */,
 			);
 		};
 /* End PBXProject section */
@@ -223,6 +326,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		58325C392CE3600C00C4CBEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58325C602CE385A500C4CBEE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -253,6 +363,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		58325C5E2CE385A500C4CBEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -265,6 +382,11 @@
 			isa = PBXTargetDependency;
 			target = 58325C202CE3600B00C4CBEE /* ProxyApp */;
 			targetProxy = 58325C3C2CE3600C00C4CBEE /* PBXContainerItemProxy */;
+		};
+		58325C6C2CE385A500C4CBEE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 58325C612CE385A500C4CBEE /* ProxyAppVPN */;
+			targetProxy = 58325C6B2CE385A500C4CBEE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -393,17 +515,21 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ProxyApp/ProxyApp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ProxyApp/Preview Content\"";
 				DEVELOPMENT_TEAM = D2ZU83W7LV;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ProxyApp/Info.plist;
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "We need to use your Local Network to obtain proxy server latency.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -422,17 +548,21 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ProxyApp/ProxyApp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ProxyApp/Preview Content\"";
 				DEVELOPMENT_TEAM = D2ZU83W7LV;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ProxyApp/Info.plist;
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "We need to use your Local Network to obtain proxy server latency.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -518,6 +648,60 @@
 			};
 			name = Release;
 		};
+		58325C6F2CE385A500C4CBEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = ProxyAppVPN/ProxyAppVPN.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D2ZU83W7LV;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ProxyAppVPN/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = ProxyAppVPN;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.increments.ProxyApp.ProxyAppVPN;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		58325C702CE385A500C4CBEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = ProxyAppVPN/ProxyAppVPN.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D2ZU83W7LV;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ProxyAppVPN/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = ProxyAppVPN;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.increments.ProxyApp.ProxyAppVPN;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -553,6 +737,15 @@
 			buildConfigurations = (
 				58325C4C2CE3600C00C4CBEE /* Debug */,
 				58325C4D2CE3600C00C4CBEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58325C6E2CE385A500C4CBEE /* Build configuration list for PBXNativeTarget "ProxyAppVPN" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58325C6F2CE385A500C4CBEE /* Debug */,
+				58325C702CE385A500C4CBEE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

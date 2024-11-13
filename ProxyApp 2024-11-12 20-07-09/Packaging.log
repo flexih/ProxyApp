@@ -1,0 +1,252 @@
+2024-11-12 14:07:04 +0000  Initial pipeline context: <IDEDistributionProcessingPipelineContext: 0x3ae22a9d0; archive(resolved)="<IDEArchive: 0x600035ec4380>", distributionTask(resolved)="2", distributionDestination(resolved)="1", distributionMethod(resolved)="<IDEDistributionMethodDevelopmentSigned: 0x600007711cb0>", team(resolved)="<IDEProvisioningDisambiguatableBasicTeam: 0x60001ae84180; teamID='D2ZU83W7LV', teamName='Md. Shafiqul Islam', teamType='Individual', username='increments.inc@gmail.com', isFreeProvisioningTeam='0'>">
+	Chain (15, self inclusive):
+	<IDEDistributionProcessingPipelineContext: 0x3ae22a9d0; archive = "<IDEArchive: 0x600035ec4380>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x600007711cb0>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x60001ae84180; teamID='D2ZU83W7LV', teamName='Md. Shafiqul Islam', teamType='Individual', username='increments.inc@gmail.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionProcessingPipelineContext: 0x3a9ad0870; archive = "<IDEArchive: 0x600035ec4380>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x600007711cb0>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x60001ae84180; teamID='D2ZU83W7LV', teamName='Md. Shafiqul Islam', teamType='Individual', username='increments.inc@gmail.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x3afea08e0; archive = "<IDEArchive: 0x600035ec4380>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x600007711cb0>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x60001ae84180; teamID='D2ZU83W7LV', teamName='Md. Shafiqul Islam', teamType='Individual', username='increments.inc@gmail.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x39cf1b650; archive = "<IDEArchive: 0x600035ec4380>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x600007711cb0>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x60001ae84180; teamID='D2ZU83W7LV', teamName='Md. Shafiqul Islam', teamType='Individual', username='increments.inc@gmail.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x39cf1d020; archive = "<IDEArchive: 0x600035ec4380>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x600007711cb0>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x60001ae84180; teamID='D2ZU83W7LV', teamName='Md. Shafiqul Islam', teamType='Individual', username='increments.inc@gmail.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x39cf1ce10; archive = "<IDEArchive: 0x600035ec4380>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x600007711cb0>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x60001ae84180; teamID='D2ZU83W7LV', teamName='Md. Shafiqul Islam', teamType='Individual', username='increments.inc@gmail.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x39cf1e830; archive = "<IDEArchive: 0x600035ec4380>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x600007711cb0>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x60001ae84180; teamID='D2ZU83W7LV', teamName='Md. Shafiqul Islam', teamType='Individual', username='increments.inc@gmail.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x39cf680d0; archive = "<IDEArchive: 0x600035ec4380>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x600007711cb0>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x60001ae84180; teamID='D2ZU83W7LV', teamName='Md. Shafiqul Islam', teamType='Individual', username='increments.inc@gmail.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x3af7ceeb0; archive = "<IDEArchive: 0x600035ec4380>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x600007711cb0>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x60001ae84180; teamID='D2ZU83W7LV', teamName='Md. Shafiqul Islam', teamType='Individual', username='increments.inc@gmail.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x3a9af3f80; archive = "<IDEArchive: 0x600035ec4380>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x600007711cb0>", team="(null)">
+	<IDEDistributionContext: 0x1481f1f00; archive = "<IDEArchive: 0x600035ec4380>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x600007711cb0>", team="(null)">
+	<IDEDistributionContext: 0x14810a840; archive = "<IDEArchive: 0x600035ec4380>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x600007711cb0>", team="(null)">
+	<IDEDistributionContext: 0x39cff7710; archive = "<IDEArchive: 0x600035ec4380>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x600007711cb0>", team="(null)">
+	<IDEDistributionContext: 0x33f1d4c50; archive = "<IDEArchive: 0x600035ec4380>", distributionMethod="(null)", team="(null)">
+	<IDEDistributionContext: 0x39cf17ef0; archive = "<IDEArchive: 0x600035ec4380>", distributionMethod="(null)", team="(null)">
+</IDEDistributionProcessingPipelineContext: 0x3ae22a9d0>
+2024-11-12 14:07:04 +0000  Processing step: IDEDistributionCreateDestRootStep
+2024-11-12 14:07:04 +0000  Processing step: IDEDistributionCopyItemStep
+2024-11-12 14:07:04 +0000  Running /usr/bin/ditto '-V' '/Users/msishamim/Library/Developer/Xcode/Archives/2024-11-12/ProxyApp 12-11-24, 8.06 PM.xcarchive/Products/Applications/ProxyApp.app' '/var/folders/lc/5yp86r3s2mlfjl94mfxp3tbr0000gn/T/XcodeDistPipeline.~~~lfAmXE/Root/Payload/ProxyApp.app'
+2024-11-12 14:07:04 +0000  >>> Copying /Users/msishamim/Library/Developer/Xcode/Archives/2024-11-12/ProxyApp 12-11-24, 8.06 PM.xcarchive/Products/Applications/ProxyApp.app 
+2024-11-12 14:07:04 +0000  copying file ./_CodeSignature/CodeResources ... 
+2024-11-12 14:07:04 +0000  3209 bytes for ./_CodeSignature/CodeResources
+2024-11-12 14:07:04 +0000  copying file ./ProxyApp ... 
+2024-11-12 14:07:04 +0000  253664 bytes for ./ProxyApp
+2024-11-12 14:07:04 +0000  copying file ./PlugIns/ProxyAppVPN.appex/_CodeSignature/CodeResources ... 
+2024-11-12 14:07:04 +0000  2040 bytes for ./PlugIns/ProxyAppVPN.appex/_CodeSignature/CodeResources
+2024-11-12 14:07:04 +0000  copying file ./PlugIns/ProxyAppVPN.appex/ProxyAppVPN ... 
+2024-11-12 14:07:04 +0000  90128 bytes for ./PlugIns/ProxyAppVPN.appex/ProxyAppVPN
+2024-11-12 14:07:04 +0000  copying file ./PlugIns/ProxyAppVPN.appex/embedded.mobileprovision ... 
+2024-11-12 14:07:04 +0000  20985 bytes for ./PlugIns/ProxyAppVPN.appex/embedded.mobileprovision
+2024-11-12 14:07:04 +0000  copying file ./PlugIns/ProxyAppVPN.appex/Info.plist ... 
+2024-11-12 14:07:04 +0000  959 bytes for ./PlugIns/ProxyAppVPN.appex/Info.plist
+2024-11-12 14:07:04 +0000  copying file ./embedded.mobileprovision ... 
+2024-11-12 14:07:04 +0000  21370 bytes for ./embedded.mobileprovision
+2024-11-12 14:07:04 +0000  copying file ./Info.plist ... 
+2024-11-12 14:07:04 +0000  1497 bytes for ./Info.plist
+2024-11-12 14:07:04 +0000  copying file ./PkgInfo ... 
+2024-11-12 14:07:04 +0000  8 bytes for ./PkgInfo
+2024-11-12 14:07:04 +0000  /usr/bin/ditto exited with 0
+2024-11-12 14:07:04 +0000  Processing step: IDEDistributionEmbedProfileStep
+2024-11-12 14:07:04 +0000  Processing step: IDEDistributionInfoPlistStep
+2024-11-12 14:07:04 +0000  Skipping step: IDEDistributionInfoPlistStep because it said so
+2024-11-12 14:07:04 +0000  Skipping step: IDEDistributionInfoPlistStep because it said so
+2024-11-12 14:07:04 +0000  Processing step: IDEDistributionAppThinningPlistStep
+2024-11-12 14:07:04 +0000  Skipping step: IDEDistributionAppThinningPlistStep because it said so
+2024-11-12 14:07:04 +0000  Processing step: IDEDistributionSymbolsStep
+2024-11-12 14:07:04 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2024-11-12 14:07:04 +0000  Processing step: IDEDistributionAppThinningStep
+2024-11-12 14:07:04 +0000  Skipping step: IDEDistributionAppThinningStep because it said so
+2024-11-12 14:07:04 +0000  Processing step: IDEDistributionArchThinningStep
+2024-11-12 14:07:04 +0000  Item /Users/msishamim/Library/Developer/Xcode/Archives/2024-11-12/ProxyApp 12-11-24, 8.06 PM.xcarchive/Products/Applications/ProxyApp.app/PlugIns/ProxyAppVPN.appex doesn't have the entitlement com.apple.developer.web-browser-engine.host enabled, returning ["arm64e"]
+2024-11-12 14:07:04 +0000  Archs to thin for item /Users/msishamim/Library/Developer/Xcode/Archives/2024-11-12/ProxyApp 12-11-24, 8.06 PM.xcarchive/Products/Applications/ProxyApp.app/PlugIns/ProxyAppVPN.appex are ["arm64e"]
+2024-11-12 14:07:04 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/lc/5yp86r3s2mlfjl94mfxp3tbr0000gn/T/XcodeDistPipeline.~~~lfAmXE/Root/Payload/ProxyApp.app/PlugIns/ProxyAppVPN.appex/ProxyAppVPN' '-verify_arch' 'arm64e'
+2024-11-12 14:07:04 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2024-11-12 14:07:04 +0000  Skipping architecture thinning for item "ProxyAppVPN" because arch "arm64e" wasn't found
+2024-11-12 14:07:04 +0000  Item /Users/msishamim/Library/Developer/Xcode/Archives/2024-11-12/ProxyApp 12-11-24, 8.06 PM.xcarchive/Products/Applications/ProxyApp.app doesn't have the entitlement com.apple.developer.web-browser-engine.host enabled, returning ["arm64e"]
+2024-11-12 14:07:04 +0000  Archs to thin for item /Users/msishamim/Library/Developer/Xcode/Archives/2024-11-12/ProxyApp 12-11-24, 8.06 PM.xcarchive/Products/Applications/ProxyApp.app are ["arm64e"]
+2024-11-12 14:07:04 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/lc/5yp86r3s2mlfjl94mfxp3tbr0000gn/T/XcodeDistPipeline.~~~lfAmXE/Root/Payload/ProxyApp.app/ProxyApp' '-verify_arch' 'arm64e'
+2024-11-12 14:07:04 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2024-11-12 14:07:04 +0000  Skipping architecture thinning for item "ProxyApp" because arch "arm64e" wasn't found
+2024-11-12 14:07:04 +0000  Processing step: IDEDistributionODRStep
+2024-11-12 14:07:04 +0000  Processing step: IDEDistributionStripXattrsStep
+2024-11-12 14:07:04 +0000  Skipping stripping extended attributes because the codesign step will strip them.
+2024-11-12 14:07:04 +0000  Skipping stripping extended attributes because the codesign step will strip them.
+2024-11-12 14:07:04 +0000  Processing step: IDEDistributionCodesignStep
+2024-11-12 14:07:04 +0000  Entitlements for <IDEDistributionItem: 0x60000d111140; bundleID='com.increments.ProxyApp.ProxyAppVPN', path='<DVTFilePath:0x600031e3d5e0:'/Users/msishamim/Library/Developer/Xcode/Archives/2024-11-12/ProxyApp 12-11-24, 8.06 PM.xcarchive/Products/Applications/ProxyApp.app/PlugIns/ProxyAppVPN.appex'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000415cae40; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x60000cfd2a00; name='Apple Development: Md. Shafiqul Islam (67NN527MDG)', hash='B58F27CFE2D62335044518BCFF90A2F4D832ED61', serialNumber='4B3AA743C189930615D6E98A4FA340A1', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2024-11-10 08:18:14 +0000''>', entitlements='{
+    "application-identifier" = "D2ZU83W7LV.com.increments.ProxyApp.ProxyAppVPN";
+    "com.apple.developer.team-identifier" = D2ZU83W7LV;
+    "com.apple.security.application-groups" =     (
+        "group.com.increments.ProxyApp"
+    );
+    "get-task-allow" = 1;
+}', teamID='D2ZU83W7LV', identifier='com.increments.ProxyApp.ProxyAppVPN', executablePath='<DVTFilePath:0x60004104dda0:'/Users/msishamim/Library/Developer/Xcode/Archives/2024-11-12/ProxyApp 12-11-24, 8.06 PM.xcarchive/Products/Applications/ProxyApp.app/PlugIns/ProxyAppVPN.appex/ProxyAppVPN'>', hardenedRuntime='0'>'>: {
+    "application-identifier" = "D2ZU83W7LV.com.increments.ProxyApp.ProxyAppVPN";
+    "com.apple.developer.team-identifier" = D2ZU83W7LV;
+    "com.apple.security.application-groups" =     (
+        "group.com.increments.ProxyApp"
+    );
+    "get-task-allow" = 1;
+}
+2024-11-12 14:07:04 +0000  Associated App Clip Identifiers Filter: Skipping because "com.apple.developer.associated-appclip-app-identifiers" is not present
+2024-11-12 14:07:04 +0000  Entitlements for <IDEDistributionItem: 0x60000d111140; bundleID='com.increments.ProxyApp.ProxyAppVPN', path='<DVTFilePath:0x600031e3d5e0:'/Users/msishamim/Library/Developer/Xcode/Archives/2024-11-12/ProxyApp 12-11-24, 8.06 PM.xcarchive/Products/Applications/ProxyApp.app/PlugIns/ProxyAppVPN.appex'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000415cae40; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x60000cfd2580; name='Apple Development: Md. Shafiqul Islam (67NN527MDG)', hash='B58F27CFE2D62335044518BCFF90A2F4D832ED61', serialNumber='4B3AA743C189930615D6E98A4FA340A1', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2024-11-10 08:18:14 +0000''>', entitlements='{
+    "application-identifier" = "D2ZU83W7LV.com.increments.ProxyApp.ProxyAppVPN";
+    "com.apple.developer.team-identifier" = D2ZU83W7LV;
+    "com.apple.security.application-groups" =     (
+        "group.com.increments.ProxyApp"
+    );
+    "get-task-allow" = 1;
+}', teamID='D2ZU83W7LV', identifier='com.increments.ProxyApp.ProxyAppVPN', executablePath='<DVTFilePath:0x60004104dda0:'/Users/msishamim/Library/Developer/Xcode/Archives/2024-11-12/ProxyApp 12-11-24, 8.06 PM.xcarchive/Products/Applications/ProxyApp.app/PlugIns/ProxyAppVPN.appex/ProxyAppVPN'>', hardenedRuntime='0'>'> are: {
+    "application-identifier" = "D2ZU83W7LV.com.increments.ProxyApp.ProxyAppVPN";
+    "com.apple.developer.team-identifier" = D2ZU83W7LV;
+    "com.apple.security.application-groups" =     (
+        "group.com.increments.ProxyApp"
+    );
+    "get-task-allow" = 1;
+}
+2024-11-12 14:07:04 +0000  Writing entitlements for <IDEDistributionItem: 0x60000d111140; bundleID='com.increments.ProxyApp.ProxyAppVPN', path='<DVTFilePath:0x600031e3d5e0:'/Users/msishamim/Library/Developer/Xcode/Archives/2024-11-12/ProxyApp 12-11-24, 8.06 PM.xcarchive/Products/Applications/ProxyApp.app/PlugIns/ProxyAppVPN.appex'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000415cae40; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x60000cfd24c0; name='Apple Development: Md. Shafiqul Islam (67NN527MDG)', hash='B58F27CFE2D62335044518BCFF90A2F4D832ED61', serialNumber='4B3AA743C189930615D6E98A4FA340A1', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2024-11-10 08:18:14 +0000''>', entitlements='{
+    "application-identifier" = "D2ZU83W7LV.com.increments.ProxyApp.ProxyAppVPN";
+    "com.apple.developer.team-identifier" = D2ZU83W7LV;
+    "com.apple.security.application-groups" =     (
+        "group.com.increments.ProxyApp"
+    );
+    "get-task-allow" = 1;
+}', teamID='D2ZU83W7LV', identifier='com.increments.ProxyApp.ProxyAppVPN', executablePath='<DVTFilePath:0x60004104dda0:'/Users/msishamim/Library/Developer/Xcode/Archives/2024-11-12/ProxyApp 12-11-24, 8.06 PM.xcarchive/Products/Applications/ProxyApp.app/PlugIns/ProxyAppVPN.appex/ProxyAppVPN'>', hardenedRuntime='0'>'> to: /var/folders/lc/5yp86r3s2mlfjl94mfxp3tbr0000gn/T/XcodeDistPipeline.~~~lfAmXE/entitlements~~~vffIBE
+2024-11-12 14:07:04 +0000  invoking codesign: <NSConcreteTask: 0x6000415b3430; launchPath='/usr/bin/codesign', arguments='(
+    "-f",
+    "-s",
+    B58F27CFE2D62335044518BCFF90A2F4D832ED61,
+    "--entitlements",
+    "/var/folders/lc/5yp86r3s2mlfjl94mfxp3tbr0000gn/T/XcodeDistPipeline.~~~lfAmXE/entitlements~~~vffIBE",
+    "--preserve-metadata=identifier,flags,runtime",
+    "--generate-entitlement-der",
+    "--strip-disallowed-xattrs",
+    "-vvv",
+    "/var/folders/lc/5yp86r3s2mlfjl94mfxp3tbr0000gn/T/XcodeDistPipeline.~~~lfAmXE/Root/Payload/ProxyApp.app/PlugIns/ProxyAppVPN.appex"
+)'>
+2024-11-12 14:07:04 +0000  codesign output: /var/folders/lc/5yp86r3s2mlfjl94mfxp3tbr0000gn/T/XcodeDistPipeline.~~~lfAmXE/Root/Payload/ProxyApp.app/PlugIns/ProxyAppVPN.appex: replacing existing signature
+/var/folders/lc/5yp86r3s2mlfjl94mfxp3tbr0000gn/T/XcodeDistPipeline.~~~lfAmXE/Root/Payload/ProxyApp.app/PlugIns/ProxyAppVPN.appex: signed bundle with Mach-O thin (arm64) [com.increments.ProxyApp.ProxyAppVPN]
+2024-11-12 14:07:04 +0000  Entitlements for <IDEDistributionItem: 0x600041fb0360; bundleID='com.increments.ProxyApp', path='<DVTFilePath:0x60000d17a2e0:'/Users/msishamim/Library/Developer/Xcode/Archives/2024-11-12/ProxyApp 12-11-24, 8.06 PM.xcarchive/Products/Applications/ProxyApp.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000415c2f30; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x60000cfd2580; name='Apple Development: Md. Shafiqul Islam (67NN527MDG)', hash='B58F27CFE2D62335044518BCFF90A2F4D832ED61', serialNumber='4B3AA743C189930615D6E98A4FA340A1', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2024-11-10 08:18:14 +0000''>', entitlements='{
+    "application-identifier" = "D2ZU83W7LV.com.increments.ProxyApp";
+    "com.apple.developer.networking.networkextension" =     (
+        "packet-tunnel-provider",
+        "app-proxy-provider",
+        "content-filter-provider",
+        "dns-proxy"
+    );
+    "com.apple.developer.networking.vpn.api" =     (
+        "allow-vpn"
+    );
+    "com.apple.developer.team-identifier" = D2ZU83W7LV;
+    "get-task-allow" = 1;
+}', teamID='D2ZU83W7LV', identifier='com.increments.ProxyApp', executablePath='<DVTFilePath:0x60000d178780:'/Users/msishamim/Library/Developer/Xcode/Archives/2024-11-12/ProxyApp 12-11-24, 8.06 PM.xcarchive/Products/Applications/ProxyApp.app/ProxyApp'>', hardenedRuntime='0'>'>: {
+    "application-identifier" = "D2ZU83W7LV.com.increments.ProxyApp";
+    "com.apple.developer.networking.networkextension" =     (
+        "packet-tunnel-provider",
+        "app-proxy-provider",
+        "content-filter-provider",
+        "dns-proxy"
+    );
+    "com.apple.developer.networking.vpn.api" =     (
+        "allow-vpn"
+    );
+    "com.apple.developer.team-identifier" = D2ZU83W7LV;
+    "get-task-allow" = 1;
+}
+2024-11-12 14:07:04 +0000  Associated App Clip Identifiers Filter: Skipping because "com.apple.developer.associated-appclip-app-identifiers" is not present
+2024-11-12 14:07:04 +0000  Entitlements for <IDEDistributionItem: 0x600041fb0360; bundleID='com.increments.ProxyApp', path='<DVTFilePath:0x60000d17a2e0:'/Users/msishamim/Library/Developer/Xcode/Archives/2024-11-12/ProxyApp 12-11-24, 8.06 PM.xcarchive/Products/Applications/ProxyApp.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000415c2f30; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x60000cfd24c0; name='Apple Development: Md. Shafiqul Islam (67NN527MDG)', hash='B58F27CFE2D62335044518BCFF90A2F4D832ED61', serialNumber='4B3AA743C189930615D6E98A4FA340A1', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2024-11-10 08:18:14 +0000''>', entitlements='{
+    "application-identifier" = "D2ZU83W7LV.com.increments.ProxyApp";
+    "com.apple.developer.networking.networkextension" =     (
+        "packet-tunnel-provider",
+        "app-proxy-provider",
+        "content-filter-provider",
+        "dns-proxy"
+    );
+    "com.apple.developer.networking.vpn.api" =     (
+        "allow-vpn"
+    );
+    "com.apple.developer.team-identifier" = D2ZU83W7LV;
+    "get-task-allow" = 1;
+}', teamID='D2ZU83W7LV', identifier='com.increments.ProxyApp', executablePath='<DVTFilePath:0x60000d178780:'/Users/msishamim/Library/Developer/Xcode/Archives/2024-11-12/ProxyApp 12-11-24, 8.06 PM.xcarchive/Products/Applications/ProxyApp.app/ProxyApp'>', hardenedRuntime='0'>'> are: {
+    "application-identifier" = "D2ZU83W7LV.com.increments.ProxyApp";
+    "com.apple.developer.networking.networkextension" =     (
+        "packet-tunnel-provider",
+        "app-proxy-provider",
+        "content-filter-provider",
+        "dns-proxy"
+    );
+    "com.apple.developer.networking.vpn.api" =     (
+        "allow-vpn"
+    );
+    "com.apple.developer.team-identifier" = D2ZU83W7LV;
+    "get-task-allow" = 1;
+}
+2024-11-12 14:07:04 +0000  Writing entitlements for <IDEDistributionItem: 0x600041fb0360; bundleID='com.increments.ProxyApp', path='<DVTFilePath:0x60000d17a2e0:'/Users/msishamim/Library/Developer/Xcode/Archives/2024-11-12/ProxyApp 12-11-24, 8.06 PM.xcarchive/Products/Applications/ProxyApp.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000415c2f30; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x60000cfd5740; name='Apple Development: Md. Shafiqul Islam (67NN527MDG)', hash='B58F27CFE2D62335044518BCFF90A2F4D832ED61', serialNumber='4B3AA743C189930615D6E98A4FA340A1', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2024-11-10 08:18:14 +0000''>', entitlements='{
+    "application-identifier" = "D2ZU83W7LV.com.increments.ProxyApp";
+    "com.apple.developer.networking.networkextension" =     (
+        "packet-tunnel-provider",
+        "app-proxy-provider",
+        "content-filter-provider",
+        "dns-proxy"
+    );
+    "com.apple.developer.networking.vpn.api" =     (
+        "allow-vpn"
+    );
+    "com.apple.developer.team-identifier" = D2ZU83W7LV;
+    "get-task-allow" = 1;
+}', teamID='D2ZU83W7LV', identifier='com.increments.ProxyApp', executablePath='<DVTFilePath:0x60000d178780:'/Users/msishamim/Library/Developer/Xcode/Archives/2024-11-12/ProxyApp 12-11-24, 8.06 PM.xcarchive/Products/Applications/ProxyApp.app/ProxyApp'>', hardenedRuntime='0'>'> to: /var/folders/lc/5yp86r3s2mlfjl94mfxp3tbr0000gn/T/XcodeDistPipeline.~~~lfAmXE/entitlements~~~eYhTNB
+2024-11-12 14:07:04 +0000  invoking codesign: <NSConcreteTask: 0x6000415b28f0; launchPath='/usr/bin/codesign', arguments='(
+    "-f",
+    "-s",
+    B58F27CFE2D62335044518BCFF90A2F4D832ED61,
+    "--entitlements",
+    "/var/folders/lc/5yp86r3s2mlfjl94mfxp3tbr0000gn/T/XcodeDistPipeline.~~~lfAmXE/entitlements~~~eYhTNB",
+    "--preserve-metadata=identifier,flags,runtime",
+    "--generate-entitlement-der",
+    "--strip-disallowed-xattrs",
+    "-vvv",
+    "/var/folders/lc/5yp86r3s2mlfjl94mfxp3tbr0000gn/T/XcodeDistPipeline.~~~lfAmXE/Root/Payload/ProxyApp.app"
+)'>
+2024-11-12 14:07:04 +0000  codesign output: /var/folders/lc/5yp86r3s2mlfjl94mfxp3tbr0000gn/T/XcodeDistPipeline.~~~lfAmXE/Root/Payload/ProxyApp.app: replacing existing signature
+/var/folders/lc/5yp86r3s2mlfjl94mfxp3tbr0000gn/T/XcodeDistPipeline.~~~lfAmXE/Root/Payload/ProxyApp.app: signed app bundle with Mach-O thin (arm64) [com.increments.ProxyApp]
+2024-11-12 14:07:04 +0000  Processing step: IDEDistributionZipODRItemStep
+2024-11-12 14:07:04 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2024-11-12 14:07:04 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2024-11-12 14:07:04 +0000  Processing step: IDEDistributionCreateIPAStep
+2024-11-12 14:07:04 +0000  Running /usr/bin/ditto '-V' '-c' '-k' '--norsrc' '/var/folders/lc/5yp86r3s2mlfjl94mfxp3tbr0000gn/T/XcodeDistPipeline.~~~lfAmXE/Root' '/var/folders/lc/5yp86r3s2mlfjl94mfxp3tbr0000gn/T/XcodeDistPipeline.~~~lfAmXE/Packages/ProxyApp.ipa'
+2024-11-12 14:07:04 +0000  >>> Copying /var/folders/lc/5yp86r3s2mlfjl94mfxp3tbr0000gn/T/XcodeDistPipeline.~~~lfAmXE/Root 
+2024-11-12 14:07:04 +0000  copying file ./Payload/ProxyApp.app/_CodeSignature/CodeResources ... 
+2024-11-12 14:07:04 +0000  3209 bytes for ./Payload/ProxyApp.app/_CodeSignature/CodeResources
+2024-11-12 14:07:04 +0000  copying file ./Payload/ProxyApp.app/ProxyApp ... 
+2024-11-12 14:07:04 +0000  253664 bytes for ./Payload/ProxyApp.app/ProxyApp
+2024-11-12 14:07:04 +0000  copying file ./Payload/ProxyApp.app/PlugIns/ProxyAppVPN.appex/_CodeSignature/CodeResources ... 
+2024-11-12 14:07:04 +0000  2040 bytes for ./Payload/ProxyApp.app/PlugIns/ProxyAppVPN.appex/_CodeSignature/CodeResources
+2024-11-12 14:07:04 +0000  copying file ./Payload/ProxyApp.app/PlugIns/ProxyAppVPN.appex/ProxyAppVPN ... 
+2024-11-12 14:07:04 +0000  90128 bytes for ./Payload/ProxyApp.app/PlugIns/ProxyAppVPN.appex/ProxyAppVPN
+2024-11-12 14:07:04 +0000  copying file ./Payload/ProxyApp.app/PlugIns/ProxyAppVPN.appex/embedded.mobileprovision ... 
+2024-11-12 14:07:04 +0000  20985 bytes for ./Payload/ProxyApp.app/PlugIns/ProxyAppVPN.appex/embedded.mobileprovision
+2024-11-12 14:07:04 +0000  copying file ./Payload/ProxyApp.app/PlugIns/ProxyAppVPN.appex/Info.plist ... 
+2024-11-12 14:07:04 +0000  959 bytes for ./Payload/ProxyApp.app/PlugIns/ProxyAppVPN.appex/Info.plist
+2024-11-12 14:07:04 +0000  copying file ./Payload/ProxyApp.app/embedded.mobileprovision ... 
+2024-11-12 14:07:04 +0000  21370 bytes for ./Payload/ProxyApp.app/embedded.mobileprovision
+2024-11-12 14:07:04 +0000  copying file ./Payload/ProxyApp.app/Info.plist ... 
+2024-11-12 14:07:04 +0000  1497 bytes for ./Payload/ProxyApp.app/Info.plist
+2024-11-12 14:07:04 +0000  copying file ./Payload/ProxyApp.app/PkgInfo ... 
+8 bytes for ./Payload/ProxyApp.app/PkgInfo
+2024-11-12 14:07:04 +0000  /usr/bin/ditto exited with 0
+2024-11-12 14:07:04 +0000  Processing step: IDEDistributionAppStoreInformationStep
+2024-11-12 14:07:04 +0000  Skipping step: IDEDistributionAppStoreInformationStep because it said so
+2024-11-12 14:07:04 +0000  Processing step: IDEDistributionGenerateProcessedDistributionItems
+2024-11-12 14:07:04 +0000  IDEDistributionItem init <DVTFilePath:0x600031ce7950:'/var/folders/lc/5yp86r3s2mlfjl94mfxp3tbr0000gn/T/XcodeDistPipeline.~~~lfAmXE/Root/Payload/ProxyApp.app/PlugIns/ProxyAppVPN.appex'>
+2024-11-12 14:07:04 +0000  IDEDistributionItem init <DVTFilePath:0x600035184900:'/var/folders/lc/5yp86r3s2mlfjl94mfxp3tbr0000gn/T/XcodeDistPipeline.~~~lfAmXE/Root/Payload/ProxyApp.app'>
+2024-11-12 14:07:04 +0000  Processing step: IDEDistributionCreateManifestStep
